@@ -1,2 +1,6 @@
 # here we will mention github to ignore some files
 /node_modules
+# now if someone want to access the  node_modules folder then he/she can access it by using the command line and do npm install
+# git clone 
+# npx is a package runner tool that comes with npm 5.2+
+
