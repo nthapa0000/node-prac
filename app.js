@@ -1,15 +1,17 @@
-// event are core building block of node 
-const EventEmitter = require('events');
-const customEmitter = new EventEmitter();
-// on listen for an event , emit will emit the event 
-customEmitter.on('response', (name, id) => {
-console.log(`data recieved ${name} with id:$}{id}`);
-})
-customEmitter.on('response', () => {
-console.log(`lol its same , we can emit our event we can have as many fucntion`);
-})
+// open anhy browser console then choose networks tab
 
-// order matters we have to listen first then emit an event 
-// on event we pass string and call back fucntion 
+// request is send by the user 
+//  and response is our responsibilty , to hold the correct server
+// response message is what we are creating
+// status code shows what was the result of the request 
+// 400 means there was some kind of request error
+// 404 resource not found
+// 401 request unauthorized 
 
-customEmitter.emit('response','john',34)
+// HTTP methods 
+// default op of the browser is the GET 
+// GET : 
+// POST :
+// PUT :
+// DELETE :
+// Headers is the meta data about our information
